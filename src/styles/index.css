@@ -5,7 +5,8 @@
     margin: 2rem;
     height: 16rem;
     border: solid;
-    background-color: #ccc
+    border-radius: 1rem;
+    background-color: #070707
         
 }
 
@@ -13,16 +14,38 @@
     font-size: 6rem;
     margin: 1rem;
     padding: 1rem;
-    border: solid;
+    border-radius: 1rem;
+    background-color: #0E0E0E;
+    color: white;
 }
-/* 
 
-    You can write your own styles here...
+@media screen and (max-width: 992px) {
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+    .numero__counter {
+        font-size: 3.5rem;
+    }
+}
 
-*/
+
+@media screen and (max-width: 500px) {
+    
+    #general__counter {
+        margin: 0.5rem;
+        height: 10rem;
+
+    }
+
+    .numero__counter {
+        font-size: 1rem;
+        margin: 0.2rem;
+
+    }
+}
+
+
+
+   
+   
+   
+   
+   
